@@ -1,0 +1,419 @@
+/* The navigation bar */
+body {
+    margin: 0px;
+    padding: 0px;
+}
+.navbar {
+    overflow: hidden;
+    background-color: rgb(250, 81, 48);
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+    display: flex;
+  }
+  
+  /* Links inside the navbar */
+.navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+  /* Change background on mouse-over */
+.canHover {
+    background: rgb(255, 141, 118);
+    color: black;
+    border-radius: 10px;
+}
+  
+  /* Main content */
+.main {
+    margin-top: 30px; /* Add a top margin to avoid content overlay */
+    color: black;
+  }
+.navbar input[type=text] {
+    float: right;
+    padding: 6px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 2.5px;
+    margin-top: 20px;
+    margin-right: 0px;
+    font-size: 17px;
+    width: 900px;
+  }
+.navbar button {
+    float: right;
+    padding: 6px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 2.5px;
+    margin-top: 20px;
+    margin-right: 16px;
+    font-size: 17px;
+    margin-left: 0px;
+    width: 80px;
+    background-color: rgb(253, 133, 109);
+  }
+.navbar button:hover {
+    background-color: rgb(255, 141, 118);
+  }
+.search-icon {
+    size: 80%;
+}
+.center {
+  margin-top: 9px;
+}
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  margin-top: 30px;
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+.main {
+  margin-top: 100px;
+  display: flex;
+}
+.noibat-list {
+  background-color: white;
+  color: black;
+  margin: 10px;
+  /* border-radius: 10px; */
+  text-align: center;
+  border-radius: 5px;
+  width: 20%;
+  width: 500px;
+  /* margin-left: 60px; */
+}
+
+.noibat-title {
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font: bold;
+}
+.noibat-list a {
+  border-radius: 8px;
+  width: 90%;
+  background-color: white;
+  margin: auto;
+  /* border: 3px solid green; */
+  padding: 10px;
+  margin-top: -10px;
+  margin-bottom: 10px;
+}
+.noibat-list a:hover {
+  border-radius: 5px;
+  width: 90%;
+  background-color: rgb(194, 194, 194);
+}
+.noibat-list img {
+  border-radius: 10%;
+}
+
+
+.highlight-block .styles__StyledIcon-sc-oho8ay-1 {
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    border-radius: 35%;
+    overflow: hidden;
+}
+
+.ihgfUd {
+    flex: 0 0 32px;
+    margin-right: 8px;
+    line-height: 0;
+}
+
+*, ::before, ::after {
+    box-sizing: border-box;
+}
+
+div {
+    display: block;
+}
+
+.jZosWU a {
+    color: rgb(194, 194, 194);
+}
+
+.bzmzGe {
+    display: flex;
+    padding: 7px 16px;
+    -webkit-box-align: center;
+    align-items: center;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+a {
+    color: rgb(11, 116, 229);
+    text-decoration: none;
+}
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+}
+.jZosWU {
+    width: 230px;
+    max-height: 100vh;
+    position: sticky;
+    overflow-y: scroll;
+    top: 16px;
+    background-color: transparent;
+    display: flex;
+    padding-bottom: 117px;
+    flex-direction: column;
+    color: rgb(199, 199, 199);
+    font-size: 14px;
+    line-height: 20px;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+.ihgfUd {
+  flex: 0 0 32px;
+  margin-right: 8px;
+  line-height: 0;
+}
+div {
+  display: block;
+}
+.highlight-block .styles__StyledIcon-sc-oho8ay-1 {
+  /* border: 1px solid rgba(0, 0, 0, 0.05);
+  border-radius: 35%; */
+  overflow: hidden;
+}
+
+.fUChpf:hover {
+  /* background-color: rgba(39, 39, 42, 0.12); */
+}
+
+.eDISBe * {
+  letter-spacing: normal;
+}
+
+.fUChpf {
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  padding: 8px 16px;
+  cursor: pointer;
+  position: relative;
+}
+html {
+  line-height: 1.15;
+  text-size-adjust: 100%;
+}
+html {
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-size: 14px;
+  background-color: #efefef;
+}
+.fUChpf img {
+  width: 24px;
+  height: 24px;
+  margin-right: 4px;
+  border-radius: 50%;
+}
+
+.eDISBe * {
+  letter-spacing: normal;
+}
+
+img {
+  max-width: 100%;
+}
+
+img {
+  border-style: none;
+}
+
+*, ::before, ::after {
+  box-sizing: border-box;
+}
+
+img {
+  overflow-clip-margin: content-box;
+  overflow: clip;
+}
+
+.fUChpf a, .fUChpf > span {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  color: rgb(255, 255, 255);
+}
+
+.eDISBe * {
+  letter-spacing: normal;
+}
+
+.thuongHieuCH{
+  background-color: rgb(39, 39, 42);
+  height: 280px;
+  margin-left: 11px;
+  margin-top: 5px;
+  border-radius: 5px;
+  background: linear-gradient(rgba(255, 255, 255, 0) 22.49%, rgb(255, 255, 255) 73.49%), linear-gradient(264.03deg, rgb(220, 229, 251) -10.27%, rgb(234, 236, 255) 35.65%, rgb(213, 236, 253) 110.66%);
+}
+
+*, ::before, ::after {
+  box-sizing: border-box;
+}
+.color-text {
+  color: black;
+}
+img {
+  border-radius: 5px;
+  /* display: flex;
+  margin: 10px; */
+}
+
+.textSPCH{
+  padding-top: 20px;
+  padding-bottom: 5px;
+  padding-left: 30px;
+}
+.img-quangcao-1 {
+  justify-content: space-around;
+}
+.img-quangcao-2 {
+  justify-content: space-around;
+  overflow: hidden;
+}
+.d {
+  display: flex;
+  width: 90%;
+  gap: 50px;
+  margin-left: 50px;
+  justify-content: space-around;
+}
+.chinhhang {
+  /* display: flex; */
+  width: 60%;
+  margin-left: 30px;
+  box-sizing: border-box;
+  /* justify-content: space-around; */
+}
+.chinhhang:hover {
+  cursor: pointer;
+}
+
+.products{
+  display: flex;
+  width: 90%;
+  gap: 1px;
+  /* align-items: center; */
+  justify-content: space-around;
+}
+.official {
+  margin-top: 1px;
+}
+.gyhn {
+  border-radius: 20px;
+  margin-top: 15px;
+  background: linear-gradient(rgba(255, 255, 255, 0) 22.49%, rgb(255, 255, 255) 73.49%), linear-gradient(264.03deg, rgb(220, 229, 251) -10.27%, rgb(234, 236, 255) 35.65%, rgb(213, 236, 253) 110.66%);
+}
+/* .sao{
+  color: blue;
+}
+.loc{
+  display: flex;
+  flex-direction: column;
+}
+.loc0{
+  display: flex;
+  flex-direction: column;
+}
+.loc1{
+  display: flex;
+  flex-direction: row;
+}
+.loc2{
+  color: grey;
+} */

@@ -1,0 +1,93 @@
+.top{
+    margin-left: 20px;
+    background-color: rgba(0, 0, 0, 0);
+}
+.item{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    /* padding: 20px 20px; */
+}
+.item1{
+    text-align: center;
+    margin-left: 30px;
+    padding: 20px 20px;
+    width: 20%;
+    cursor: pointer;
+}    
+.item1:hover {
+    background-color: rgba(0, 0, 0, 0.116);
+}
+.item2{
+    width: 35%;
+}
+.soy{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+}
+.soy1{
+    text-align: center;
+    margin-left: 20px;
+    /* width: 20%; */
+    padding: 20px 20px;
+    cursor: pointer;
+}
+.soy1:hover{
+    background-color: rgba(0, 0, 0, 0.116);
+}
+.soy2{
+    height: 40%;
+}
+.soy3{
+    color: red;
+}
+.tom{
+    color: gray;
+}
+.rom{
+    height: 15px;
+}
+.wit{
+    color: gray;
+}
+.sao{
+    color: blue;
+}
+.loc{
+    display: flex;
+    gap: 20px;
+    margin: 20px 200px;
+    /* flex-direction: column; */
+}
+.loc0{
+    display: flex;
+    flex-direction: column;
+}
+.loc1{
+    display: flex;
+    flex-direction: row;
+}
+.loc2{
+    color: grey;
+}
+
+.view{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px auto;
+    padding: 20px 40px;
+    border: solid 2px tomato;
+    color: black;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.view:hover{
+    cursor: pointer;
+    background-color: blue;
+    color: white;
+    border: none;
+}

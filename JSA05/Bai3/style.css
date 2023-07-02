@@ -1,0 +1,40 @@
+.search-input{
+  padding: 10px 20px;
+  width: 50%;
+
+}
+
+.search-btn{
+  padding: 10px 20px;
+  background-color: blue;
+  color: white;
+  border: none;
+}
+
+.wrapper{
+  text-align: center;
+}
+
+img{
+  object-fit: contain;
+  width: 50%;
+}
+
+#products{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-column-gap: 50px;
+  grid-row-gap: 30px;
+  margin: 0px 10%;
+  margin-top: 50px;
+  
+}
+
+.imgContainer{
+  box-shadow: 1px 2px 5px rgb(245, 238, 238);
+}
+
+.hide{
+  display: none;
+  /* ẩn */
+}
