@@ -25,9 +25,9 @@ document.getElementById("login1").addEventListener("click", () => {
       localStorage.setItem('currentUser', JSON.stringify(check[0]));
       alert("Đăng nhập thành công");
       if (check[0].voucher) {
-        window.location = "../Home/index2.html"
+        window.location = "../index2.html"
       }else {
-        window.location = "../Home/index.html";
+        window.location = "../index.html";
       }
     } else alert("Sai tài khoản hoặc chưa đăng ký");
   });

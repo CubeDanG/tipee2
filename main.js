@@ -37,6 +37,7 @@ function checkVoucher() {
   );
   listUser[currentUserIndex].voucher = true;
   localStorage.setItem('users', JSON.stringify(listUser));
+  window.location = "index2.html"
 }
   
 
